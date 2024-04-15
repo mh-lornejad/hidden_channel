@@ -6,7 +6,6 @@ PORT = 65432
 
 precision = 0.1
 
-
 def calculate_bit(time_diff):
     if 0.2 * precision > time_diff:
         return '0'
